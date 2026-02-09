@@ -20,7 +20,7 @@ interface AuditStepperProps {
 
 export function AuditStepper({ steps, currentStepIndex }: AuditStepperProps) {
   return (
-    <div className="fixed bottom-8 left-1/2 z-30 -translate-x-1/2">
+    <div className="fixed top-6 left-1/2 z-30 -translate-x-1/2">
       <div className="flex items-center gap-2 rounded-full border border-white/10 bg-black/40 p-2 shadow-2xl backdrop-blur-xl transition-all">
         {steps.map((step, index) => {
           const isCompleted = index < currentStepIndex;

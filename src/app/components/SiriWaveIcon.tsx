@@ -4,7 +4,7 @@ import svgPaths from "../../imports/svg-e19f583nve";
 
 export function SiriWaveIcon({ className = "size-full" }: { className?: string }) {
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative ${className} -ml-1`}>
       {/* Base Layer - Slow Rotation + Breathing */}
       <motion.svg 
         className="block size-full absolute inset-0 blur-sm" 
